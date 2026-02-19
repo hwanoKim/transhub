@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Serena MCP (로컬 캐시/메모리)
+.serena/cache/
+.serena/memories/
+
+# OS
+Thumbs.db
+.DS_Store

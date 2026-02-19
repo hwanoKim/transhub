@@ -1,0 +1,20 @@
+classes:
+  coding:
+    - research
+    - planning
+    - implementation
+    - review
+  research:
+    - research
+    - analysis
+
+toolbar:
+  show-hold: false
+  show-backlog: true
+  show-closed: false
+  show-tags: false
+  show-categories: true
+  hide-empty-columns: false
+
+categories:
+  - video
