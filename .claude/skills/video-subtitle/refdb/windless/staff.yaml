@@ -21,17 +21,17 @@
 - name: Maximilien
   ko: 막실리앙
   aliases: [막시밀리앙]
-  role: 비디오 디자인
+  role: 이동 시스템
 
 - name: Julien
   ko: 줄리앙
   aliases: []
-  role: GPI 팀, 인그리디언트
+  role: 게임플레이 팀
 
 - name: Fred
   ko: 프레드
   aliases: [프레도, Frédéric]
-  role: GPI 팀
+  role: 게임플레이 팀
 
 - name: Kevin
   ko: 케빈
@@ -106,4 +106,4 @@
 - name: Cyrielle
   ko: 시리엘
   aliases: [Cyrielle Barreteau]
-  role: GPI 문서/디자인
+  role: 게임플레이 문서/디자인

@@ -3,21 +3,21 @@
 
 # -- 인그리디언트/오브젝트 --
 - term: ingredient
-  ko: 인그리디언트
-  aliases: [GPI, gameplay ingredient]
-  note: 월드에 배치되는 게임플레이 오브젝트. GPI 팀 소관
+  ko: 게임 요소
+  aliases: [GPI, gameplay ingredient, 인그리디언트]
+  note: 월드에 배치되는 게임플레이 오브젝트. 게임플레이 팀 소관
 
 - term: berserk plant
   ko: 버서크 플랜트
-  note: 인그리디언트. 적을 강화하는 식물
+  note: 게임 요소. 적을 강화하는 식물
 
 - term: fog tree
   ko: 포그트리
-  note: 인그리디언트. 안개를 생성하는 나가 식물
+  note: 게임 요소. 안개를 생성하는 나가 식물
 
 - term: anti-wrecking trap
   ko: 안티레킹 트랩
-  note: 인그리디언트. 숨겨진 함정
+  note: 게임 요소. 숨겨진 함정
 
 - term: wrecking vision
   ko: 레킹 비전
@@ -63,3 +63,20 @@
 - term: terraforming
   ko: 테라포밍
   note: 나가가 기후를 변화시켜 세계를 변형
+
+# -- 플레이어 스탯 (Attributes) --
+# 출처: Confluence Progression - ATTRIBUTES
+- term: stagger
+  ko: 경직
+  aliases: [스태거]
+  note: 엘리트 적에게 가하는 경직력. 기절시켜 처형 공격 가능
+
+- term: dread
+  ko: 공포
+  aliases: [드레드, fear]
+  note: 나가가 플레이어에게 느끼는 공포 수준. 높을수록 적이 도주
+
+- term: launching move
+  ko: 띄우기 공격
+  aliases: [론칭 무브, launcher]
+  note: 적을 공중으로 띄우는 공격. 에어 콤보로 연결
