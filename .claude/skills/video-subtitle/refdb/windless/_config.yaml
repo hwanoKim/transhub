@@ -1,0 +1,23 @@
+name: Windless
+description: 오픈월드 액션 RPG 게임개발 프로젝트
+
+# 파일 분할 규칙
+# - 각 YAML 파일은 150줄 이하로 유지
+# - 초과 시 카테고리별로 분할 (예: glossary.yaml → glossary.yaml + glossary-gameplay.yaml)
+# - 파일명: {원본이름}-{카테고리}.yaml
+# - 파이프라인은 폴더 내 모든 *.yaml을 로드하므로 분할해도 동작에 영향 없음
+max_lines_per_file: 150
+
+lookup:
+  - type: mcp
+    tool: confluence
+    spaces: ["idol", "MTLKRAFTON"]
+    instructions: |
+      windless 프로젝트 Confluence에서 캐릭터, 스킬,
+      게임 용어를 검색한다.
+      주요 space: idol (Project Windless), MTLKRAFTON (Montreal Studio)
+
+  - type: web_search
+    instructions: |
+      Confluence에서 못 찾으면 웹 검색으로 보충.
+      "windless game" + 용어로 검색.

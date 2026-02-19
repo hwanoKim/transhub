@@ -1,0 +1,75 @@
+# 게임 내 캐릭터/종족/세계관
+# 출처: Confluence BTDT Korean-English Glossary + 공식 문서
+
+# -- 주요 캐릭터 --
+- name: Hero King
+  ko: 영웅왕
+  aliases: [hk, HK, 히어로 킹]
+  description: 주인공. 레콘(Rekkon) 전사. 아라짓(Arazi) 왕국 건립자
+
+- name: Kagan Draca
+  ko: 케이건 드라카
+  aliases: [케이건]
+  description: 나가 살육자(the Nhaga Eater). 주요 등장인물
+
+- name: Ryn Paye
+  ko: 륜 페이
+  aliases: [륜]
+  description: 주요 등장인물. 뇌룡공(Duke of Hattengraj)
+
+- name: Amo Paye
+  ko: 사모페이
+  aliases: [사모]
+  description: 륜과 사모의 아버지는 요스비(Iosbi)
+
+- name: Harit Makerowe
+  ko: 화리트 마케로우
+  aliases: [화리트]
+  description: 주요 등장인물
+
+- name: Henby Surabol
+  ko: 비형 스라블
+  aliases: [비형]
+  description: 주요 등장인물
+
+# -- 종족 --
+- name: Nhaga
+  ko: 나가
+  aliases: [Naga]
+  description: 적 종족. 테라포밍으로 세계를 변형. 공식 영문 Nhaga
+
+- name: Rekkon
+  ko: 레콘
+  aliases: [Rekon, Lekon]
+  description: 영웅왕의 종족. 공식 영문 Rekkon
+
+- name: Tokebi
+  ko: 도깨비
+  aliases: [Dokkaebi]
+  description: 도깨비 종족. 공식 영문 Tokebi
+
+- name: First Race
+  ko: 첫 번째 종족
+  aliases: []
+  description: 스토리 핵심. 고대 종족
+
+# -- 신 --
+- name: the Traceless Goddess
+  ko: 발자국 없는 여신
+  aliases: []
+  description: 나가들의 여신
+
+- name: the Goddess of the Lowest
+  ko: 모든이보다 낮은 여신
+  aliases: []
+  description: 레콘들의 여신
+
+- name: the Kindling God
+  ko: 자신을 죽이는 신
+  aliases: []
+  description: 도깨비들의 신
+
+- name: the God of Nowhere
+  ko: 어디에도 없는 신
+  aliases: []
+  description: 인간들의 신. Windless 제목의 유래

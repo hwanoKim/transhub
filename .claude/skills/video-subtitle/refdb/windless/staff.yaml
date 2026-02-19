@@ -1,0 +1,109 @@
+# 팀원 이름 표기 통일
+# 한국인은 한국 이름 사용, 외국인은 한글 음역
+
+# -- 한국인 (판교) --
+- name: Kwangjae Son
+  ko: 손광재
+  aliases: []
+  role: 아트 디렉터
+
+- name: Hojoong
+  ko: 호중
+  aliases: []
+  role: VFX
+
+- name: Jihyeon Moon
+  ko: 문지현
+  aliases: []
+  role: 콘텐츠 디자인
+
+# -- 몬트리올 스튜디오 --
+- name: Maximilien
+  ko: 막실리앙
+  aliases: [막시밀리앙]
+  role: 비디오 디자인
+
+- name: Julien
+  ko: 줄리앙
+  aliases: []
+  role: GPI 팀, 인그리디언트
+
+- name: Fred
+  ko: 프레드
+  aliases: [프레도, Frédéric]
+  role: GPI 팀
+
+- name: Kevin
+  ko: 케빈
+  aliases: []
+  role: AI 프로그래밍
+
+- name: Jean
+  ko: 장
+  aliases: []
+  role: 전투/무기 시스템
+
+- name: Nicolas
+  ko: 니콜라
+  aliases: []
+  role: VFX
+
+- name: Dominique
+  ko: 도미니크
+  aliases: []
+  role: 무기 시스템
+
+- name: Thomas
+  ko: 토마스
+  aliases: []
+  role: 프로그래밍
+
+- name: Bill
+  ko: 빌
+  aliases: []
+  role: UI 프로그래밍
+
+- name: Jacques
+  ko: 자크
+  aliases: []
+  role: 레벨 디자인
+
+- name: Sandra
+  ko: 산드라
+  aliases: []
+  role: UX/UI 디자인
+
+- name: Sabrina
+  ko: 사브리나
+  aliases: [사브]
+  role: 아트/리서치
+
+- name: Marco
+  ko: 마르코
+  aliases: []
+  role: 라이팅/VFX
+
+- name: Maxime
+  ko: 막심
+  aliases: []
+  role: 아트
+
+- name: Benoît
+  ko: 브누아
+  aliases: [Benoit Frappier]
+  role: 시니어 프로듀서
+
+- name: Max
+  ko: 막스
+  aliases: []
+  role: 디렉터
+
+- name: Martin Paradis
+  ko: 마틴
+  aliases: []
+  role: 테크 디렉터
+
+- name: Cyrielle
+  ko: 시리엘
+  aliases: [Cyrielle Barreteau]
+  role: GPI 문서/디자인

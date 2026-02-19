@@ -1,0 +1,45 @@
+# 월드/지역 + UI/시스템 + 개발 프로세스 용어
+
+# -- 월드/지역 --
+- term: sub region
+  ko: 서브 리전
+  note: 지역(region) 하위 구분
+
+- term: biome
+  ko: 바이옴
+  note: 생물군계
+
+- term: Red Rock Valley
+  ko: 레드 록 밸리
+  note: 서브 리전
+
+- term: Wet Canyon
+  ko: 웻 캐년
+  aliases: [Canyon Lake]
+  note: 서브 리전
+
+- term: Naga Jungle
+  ko: 나가 정글
+  note: 지역 3. 전쟁 테마
+
+# -- UI/시스템 --
+- term: gear menu
+  ko: 기어 메뉴
+  note: 장비 메뉴
+
+- term: army showroom
+  ko: 아미 쇼룸
+  note: 캐릭터 전시 화면
+
+# -- 개발 프로세스 --
+- term: show and tell
+  ko: 쇼 앤 텔
+  note: 팀 전체 발표 회의
+
+- term: sprint
+  ko: 스프린트
+  note: 개발 주기
+
+- term: Reconjam
+  ko: 리컨잼
+  note: 쇼케이스 이벤트

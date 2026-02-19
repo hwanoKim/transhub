@@ -1,0 +1,65 @@
+# 게임플레이 + 전투 용어
+# 출처: Confluence + 자막 분석
+
+# -- 인그리디언트/오브젝트 --
+- term: ingredient
+  ko: 인그리디언트
+  aliases: [GPI, gameplay ingredient]
+  note: 월드에 배치되는 게임플레이 오브젝트. GPI 팀 소관
+
+- term: berserk plant
+  ko: 버서크 플랜트
+  note: 인그리디언트. 적을 강화하는 식물
+
+- term: fog tree
+  ko: 포그트리
+  note: 인그리디언트. 안개를 생성하는 나가 식물
+
+- term: anti-wrecking trap
+  ko: 안티레킹 트랩
+  note: 인그리디언트. 숨겨진 함정
+
+- term: wrecking vision
+  ko: 레킹 비전
+  note: 플레이어 시야 모드
+
+# -- 전투/무기 --
+- term: legendary battle
+  ko: 레전더리 배틀
+  note: 보스전. 게임 클리어에 5개 필수
+
+- term: archetype
+  ko: 아키타입
+  note: 캐릭터 빌드 유형
+
+- term: Rekon Skills
+  ko: 레콘 스킬
+  note: 캐릭터 능력. 빌드를 정의
+
+- term: unarmed combat
+  ko: 맨손 전투
+  note: 무기 클래스
+
+- term: great axe
+  ko: 그레이트 액스
+  note: 레콘 무기
+
+- term: golden chain
+  ko: 골든 체인
+  note: 레콘 무기
+
+- term: halberd
+  ko: 할버드
+  note: 레콘 무기
+
+- term: mix combo
+  ko: 믹스 콤보
+  note: X+Y 버튼 조합 공격
+
+- term: Dual Parakis
+  ko: 듀얼 바라기
+  note: 바라기 이중 검 형태
+
+- term: terraforming
+  ko: 테라포밍
+  note: 나가가 기후를 변화시켜 세계를 변형
