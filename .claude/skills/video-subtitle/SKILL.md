@@ -226,6 +226,14 @@ style_guide.md를 읽고, draft_NNN.srt를 검토하여 최종 chunk_NNN.srt를 
    ```
    최종 산출물은 `VIDEO`(원본)과 `SRT`(자막)만 남긴다.
 
+## DB 동기화 필수
+
+SRT 생성/수정 과정에서 DB(refdb)의 내용이 틀렸거나 변경이 필요하면 **SRT와 DB를 반드시 함께 수정**한다.
+- 용어 번역 변경 → `terms.yaml`, `glossary*.yaml` 수정
+- 인물 역할 변경 → `staff.yaml` 수정
+- 캐릭터 이름 변경 → `characters.yaml` 수정
+- SRT만 고치고 DB를 안 고치면 다음 작업에서 틀린 표기가 다시 적용된다
+
 ## 에러 처리
 
 | 상황 | 대응 |
