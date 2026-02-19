@@ -1,7 +1,7 @@
 ---
 title: 대량 세그먼트 번역 파이프라인 개선
 class: coding
-status: review
+status: closed
 category: video
 priority: normal
 tags: [video, subtitle, pipeline, chunking]
@@ -86,6 +86,9 @@ Pass 1 완료 후 메인 에이전트가 모든 context를 취합하여 작성:
 | # | Method | Result | Notes |
 |---|--------|--------|-------|
 | 1 | 메인 세션에서 300줄씩 순차 Read + 직접 번역 시도 | X | 8회 Read 후에도 전체 못 읽음. 번역 시작 전 20분 소모, 결과물 0 |
+
+## Commits
+- Git: `96efe8a` - Implement 2-Pass parallel chunking pipeline for video subtitles
 
 ## Notes
 - 원본 테스트 파일: `C:\tmp\GMT20260213-200109_Recording.cutfile.20260218133656676_3840x2160.mp4`
