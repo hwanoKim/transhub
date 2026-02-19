@@ -107,7 +107,7 @@ context_NNN.md 취합 → refdb 조회 → (DB에 없으면 Confluence MCP 조�
 | 3 | glossary 159줄 → 3파일 분할 | O | lore(51) + gameplay(65) + world(45) |
 
 ## Commits
-- Git: `{COMMIT_HASH}` - refdb: windless 도메인 구축 완료 (terms, characters, staff, glossary 3분할) + SKILL.md 3B-4 단계 refdb 연동
+- Git: `7ae8044` - refdb: windless 도메인 구축 완료 (terms, characters, staff, glossary 3분할) + SKILL.md 3B-4 단계 refdb 연동
 
 ## Notes
 - 첫 번째 대상 도메인: windless (게임개발 프로젝트)
