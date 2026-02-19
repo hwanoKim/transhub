@@ -1,7 +1,7 @@
 ---
 title: 자막 후처리 커맨드
 class: coding
-status: backlog
+status: closed
 category: video
 priority: normal
 tags: [video, subtitle, command, fix, post-processing]
@@ -44,15 +44,23 @@ relations:
 ```
 
 ## Progress
-- [ ] 커맨드 이름/인터페이스 확정
-- [ ] 커맨드 파일 작성
-- [ ] 도메인 자동 판별 로직
-- [ ] 참고 자료 DB 연동
-- [ ] 테스트
+- [x] 커맨드 이름/인터페이스 확정 → `video-subtitle-fix`
+- [x] 커맨드 파일 작성 (`.claude/commands/video-subtitle-fix.md`)
+- [x] 도메인 자동 판별 로직 (Step 3)
+- [x] 참고 자료 DB 연동 (refdb YAML 스키마 반영)
+- [x] staff.yaml 연동: 팀원 이름 첫 언급 시 `이름(역할)` 형식
+- [x] 파이프라인 재설계: 요청 유형별 3전략 분기 (기계적 치환 / 범위 지정 / 전체 의미 수정)
+      - [x] 전략 A: Grep + Python 일괄 치환 (SRT Read 불필요)
+      - [x] 전략 B: 범위만 Read → Edit
+      - [x] 전략 C: 규모별 분기 (≤100 직접 / 101+ 청크 병렬)
+- [x] 테스트
 
 ## Attempts
 | # | Method | Result | Notes |
 |---|--------|--------|-------|
+
+## Commits
+- Git: `5e5dc9c` - feat: 자막 후처리 커맨드 + 참고 자료 DB
 
 ## Notes
 - 참고 자료 DB(sub 티켓)가 먼저 구축되어야 완전한 기능이 가능하지만, DB 없이도 기본 수정 기능은 동작 가능
