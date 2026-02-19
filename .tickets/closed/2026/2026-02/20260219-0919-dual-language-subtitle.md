@@ -1,7 +1,7 @@
 ---
 title: 영/한 이중 자막 생성 (언어 선택용)
-class: coding
-status: backlog
+class: dev
+status: closed
 category: video
 priority: normal
 tags: [video, subtitle, multilingual, srt, english, korean]
@@ -67,17 +67,21 @@ video.ko.srt    ← 한국어
 - 아키텍처 문서: `.docs/architecture/arch-subtitle-pipeline.md`
 
 ## Progress
-- [ ] SKILL.md 파이프라인 수정 (영어 → 한국어 2단계 흐름)
-- [ ] translate_chunks.py 수정 (영어/한국어 SRT 분리 출력)
-- [ ] 영어 번역 단계 프롬프트/로직 설계
-- [ ] 한국어 번역 단계 프롬프트/로직 설계 (영어 SRT 기반)
-- [ ] 기존 분할 전략 재활용 (단계별 독립 적용)
+- [x] SKILL.md 파이프라인 수정 (영어 → 한국어 2단계 흐름)
+- [x] translate_chunks.py 수정 (영어/한국어 SRT 분리 출력)
+- [x] 영어 번역 단계 프롬프트/로직 설계
+- [x] 한국어 번역 단계 프롬프트/로직 설계 (영어 SRT 기반)
+- [x] 기존 분할 전략 재활용 (단계별 독립 적용)
 
 ## Attempts
 | # | Method | Result | Notes |
 |---|--------|--------|-------|
 
+## Commits
+- Git: `9327134` - feat: 이중 자막(영/한) 생성 파이프라인 - SKILL.md 재설계
+
 ## Notes
 - 기존 파이프라인은 단일 SRT(한국어) 출력 → 이중 출력으로 확장
 - refdb 용어집은 한국어 번역 단계에서 기존과 동일하게 적용
 - 영어 번역 단계에서는 refdb의 영어 원문(term/name)을 일관성 유지에 활용
+- SKILL.md 업데이트: 영어 번역(Step 3) + 한국어 번역(Step 4) 명확화
