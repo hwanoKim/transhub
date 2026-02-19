@@ -1,7 +1,7 @@
 ---
 title: 자막 번역 품질 개선 시스템
 class: coding
-status: backlog
+status: closed
 category: video
 priority: normal
 tags: [video, subtitle, quality, database, mcp]
@@ -33,8 +33,8 @@ Pass 2: 기존 에이전트 resume (4개씩 배치) → Pass 1 컨텍스트 유�
 배치 크기 4는 동시 실행 수일 뿐, 총 에이전트 수 = 총 청크 수.
 
 ## Progress
-- [ ] 참고 자료 DB 설계 및 구축 (Sub 티켓)
-- [ ] 자막 후처리 커맨드 구현 (Sub 티켓)
+- [x] 참고 자료 DB 설계 및 구축 (Sub 티켓)
+- [x] 자막 후처리 커맨드 구현 (Sub 티켓)
 - [ ] SKILL.md 서브에이전트 resume 패턴 적용
 
 ## Attempts
